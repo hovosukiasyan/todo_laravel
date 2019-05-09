@@ -1,0 +1,56 @@
+.wrapper
+{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.link_push_left
+{
+    margin-right: 20px;
+    margin-top: 8px;
+}
+
+.post-wrapper-todo
+{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 18px;
+    border-bottom:1px solid gray;
+}
+
+.show-post{
+    background: #0000ff;
+    color:white;
+    border-radius: 5px;
+    padding:9px;
+}
+
+.delete-post{
+    /* margin-top:10px; */
+}
+
+.edit-post{
+    border-radius: 5px;
+    padding:9px;
+    background: #333333;
+    color:white;
+}
+
+.flex{
+    display:flex;
+}
+
+select {
+    height: 100px;
+    width: 300px;
+    display: block;
+  }
+
+.dropdown_categories
+{
+    background-color: white;
+}
+
+.small-select{
+    height:20px;
+}
