@@ -56,6 +56,6 @@ class TaskController extends Controller
     { 
         $task = Task::findOrFail($task->id);
         $task->delete();
-        return redirect()->back();
+        return redirect('/');
     }
 }
