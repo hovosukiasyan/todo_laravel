@@ -27,7 +27,6 @@ class TaskController extends Controller
         ]);
 
         $inputs = $request->all();
-        // dd($inputs);
         $task = Task::create($inputs);
 
         return redirect('/');

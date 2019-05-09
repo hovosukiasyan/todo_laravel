@@ -2,10 +2,7 @@
 
 @section('content')
 <div class="wrapper">
-    <h1 class="title">Create Task</h1>   
-    <?php
-    //    dd( $user); 
-    ?>
+    <h1 class="title">Create Task</h1>
     <form method="POST" action="/" enctype="multipart/form-data">
 
         @csrf
